@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.Promise = global.Promise;
+mongoose.Promise = global.Promise; //whats the purpose of this?
 
 const db = {};
 
